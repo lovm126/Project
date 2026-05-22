@@ -1,0 +1,46 @@
+# Obsidian
+.obsidian/
+workspace.json
+*.二手删除
+*.md.bak
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 输出目录（按需取消注释）
+# outputs/*.pdf
+# outputs/*.pptx
+# outputs/*.docx
+
+# 临时文件
+*.tmp
+*.temp
+*~
+
+# 大文件（按需取消注释）
+# raw/papers/*.pdf
+# raw/data/*.csv
+# raw/images/*.png
+# raw/images/*.jpg
+
+#忽略操作系统自动生成的文件
+.DS_Store 
+Thumbs.db
+
+#忽略Obsidian的缓存文件
+.obsidian/cache
+
+#忽略特定设备的工作区状态，这是避免冲突的关键#这是你本次操作的核心目标
+.obsidian/workspace.json.obsidian/workspaces.json
+.obsidian/workspace-mobile.json
+
+#忽略其他不建议同步的文件
+.obsidian/daily-notes.json.obsidian/facets.json.obsidian/starred.json
+
+#忽略插件的缓存和数据文件
+.obsidian/plugins/some-plugin/data.json
+.obsidian/plugins/recent-files-obsidian/data.json
+
+#忽略垃圾箱文件夹
+.trash/
